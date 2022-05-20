@@ -4,13 +4,13 @@
 }
 
 body {
-  font-size: 20px;
-  margin: 1em;
+  font-size: 18px;
   font-family: sans-serif;
 }
 
 .page_wrapper {
   background-color: #fcfafa96;
+  padding: 1em;
 }
 
 header {
@@ -42,6 +42,11 @@ table {
   font-size: 1.2em;
   width: 50em;
   color: #455154;
+}
+
+table>caption {
+  text-align: left;
+  padding: 1em;
 }
 
 table th,
